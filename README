@@ -5,7 +5,7 @@ Run finshell.sh to sample the application, the application to be profiled needs 
 
 	$sh finshell.sh > outfile
 
-This creates the sampled output in "outfile" using the fincore module deleveloped by David Plonka of University of Wisconsin - Madison "http://net.doit.wisc.edu/~plonka/fincore".
+This creates the sampled output in "outfile" using the fincore module developed by David Plonka of University of Wisconsin - Madison "http://net.doit.wisc.edu/~plonka/fincore".
 
 Now feed this input to the Hadoop program to generate the Page statistics. The program code can be found in the Folder "Hadoop Program". The dist folder contains the jar to be run to generate the output. A typical run is shown below:
 
