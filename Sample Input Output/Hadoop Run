@@ -1,0 +1,48 @@
+run:
+12/03/18 20:18:05 WARN conf.Configuration: DEPRECATED: hadoop-site.xml found in the classpath. Usage of hadoop-site.xml is deprecated. Instead use core-site.xml, mapred-site.xml and hdfs-site.xml to override properties of core-default.xml, mapred-default.xml and hdfs-default.xml respectively
+12/03/18 20:18:05 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+12/03/18 20:18:05 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+12/03/18 20:18:06 INFO mapred.FileInputFormat: Total input paths to process : 1
+12/03/18 20:18:06 INFO mapred.JobClient: Running job: job_local_0001
+12/03/18 20:18:06 INFO mapred.FileInputFormat: Total input paths to process : 1
+12/03/18 20:18:06 INFO mapred.MapTask: numReduceTasks: 1
+12/03/18 20:18:06 INFO mapred.MapTask: io.sort.mb = 100
+12/03/18 20:18:06 INFO mapred.MapTask: data buffer = 79691776/99614720
+12/03/18 20:18:06 INFO mapred.MapTask: record buffer = 262144/327680
+12/03/18 20:18:07 INFO mapred.MapTask: Starting flush of map output
+12/03/18 20:18:07 INFO mapred.MapTask: Finished spill 0
+12/03/18 20:18:07 INFO mapred.TaskRunner: Task:attempt_local_0001_m_000000_0 is done. And is in the process of commiting
+12/03/18 20:18:07 INFO mapred.LocalJobRunner: file:/home/rahul/input/outfile:0+3842519
+12/03/18 20:18:07 INFO mapred.TaskRunner: Task 'attempt_local_0001_m_000000_0' done.
+12/03/18 20:18:07 INFO mapred.LocalJobRunner: 
+12/03/18 20:18:07 INFO mapred.Merger: Merging 1 sorted segments
+12/03/18 20:18:07 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 3843193 bytes
+12/03/18 20:18:07 INFO mapred.LocalJobRunner: 
+12/03/18 20:18:07 INFO mapred.JobClient:  map 100% reduce 0%
+12/03/18 20:18:13 INFO mapred.LocalJobRunner: reduce > reduce
+12/03/18 20:18:13 INFO mapred.JobClient:  map 100% reduce 67%
+12/03/18 20:19:39 INFO mapred.TaskRunner: Task:attempt_local_0001_r_000000_0 is done. And is in the process of commiting
+12/03/18 20:19:39 INFO mapred.LocalJobRunner: reduce > reduce
+12/03/18 20:19:39 INFO mapred.TaskRunner: Task attempt_local_0001_r_000000_0 is allowed to commit now
+12/03/18 20:19:39 INFO mapred.FileOutputCommitter: Saved output of task 'attempt_local_0001_r_000000_0' to file:/home/rahul/output
+12/03/18 20:19:39 INFO mapred.LocalJobRunner: reduce > reduce
+12/03/18 20:19:39 INFO mapred.TaskRunner: Task 'attempt_local_0001_r_000000_0' done.
+12/03/18 20:19:40 INFO mapred.JobClient:  map 100% reduce 100%
+12/03/18 20:19:40 INFO mapred.JobClient: Job complete: job_local_0001
+12/03/18 20:19:40 INFO mapred.JobClient: Counters: 13
+12/03/18 20:19:40 INFO mapred.JobClient:   FileSystemCounters
+12/03/18 20:19:40 INFO mapred.JobClient:     FILE_BYTES_READ=28737557
+12/03/18 20:19:40 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=25169594
+12/03/18 20:19:40 INFO mapred.JobClient:   Map-Reduce Framework
+12/03/18 20:19:40 INFO mapred.JobClient:     Reduce input groups=1
+12/03/18 20:19:40 INFO mapred.JobClient:     Combine output records=0
+12/03/18 20:19:40 INFO mapred.JobClient:     Map input records=112
+12/03/18 20:19:40 INFO mapred.JobClient:     Reduce shuffle bytes=0
+12/03/18 20:19:40 INFO mapred.JobClient:     Reduce output records=4
+12/03/18 20:19:40 INFO mapred.JobClient:     Spilled Records=224
+12/03/18 20:19:40 INFO mapred.JobClient:     Map output bytes=3842743
+12/03/18 20:19:40 INFO mapred.JobClient:     Map input bytes=3842519
+12/03/18 20:19:40 INFO mapred.JobClient:     Combine input records=0
+12/03/18 20:19:40 INFO mapred.JobClient:     Map output records=112
+12/03/18 20:19:40 INFO mapred.JobClient:     Reduce input records=112
+BUILD SUCCESSFUL (total time: 1 minute 37 seconds)

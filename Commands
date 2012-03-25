@@ -1,0 +1,5 @@
+Run finshell.sh to sample the application, the application to be profiled needs to be fed into "finshell.sh"
+
+$sh finshell.sh > outfile
+
+

@@ -1,0 +1,17 @@
+README for the Hadoop Page Statistics Module
+Created by: Rahul Rudradevan <rrudrade@uci.edu> and Praveen Ammanji <pammanji@uci.edu> of University of California, Irvine.
+
+Run finshell.sh to sample the application, the application to be profiled needs to be fed into "finshell.sh", a shell script that iteratively calls the sampling program. 
+
+	$sh finshell.sh > outfile
+
+This creates the sampled output in "outfile" using the fincore module deleveloped by David Plonka of University of Wisconsin - Madison "http://net.doit.wisc.edu/~plonka/fincore".
+
+Now feed this input to the Hadoop program to generate the Page statistics. The program code can be found in the Folder "Hadoop Program". The dist folder contains the jar to be run to generate the output. A typical run is shown below:
+
+	$sudo hadoop jar Pageset.jar <input location> <output location>
+
+Logs of sample inputs, outputs and a standalone run of hadoop on a pseudo cluster is included in the folder "Sample Input Output".
+
+
+
